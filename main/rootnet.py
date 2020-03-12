@@ -4,8 +4,8 @@ import torchvision.transforms as transforms
 import numpy as np
 import math
 
-from data.dataset import generate_patch_image
-from main.config import cfg as rootnet_cfg
+from dataset import generate_patch_image
+from config import cfg as rootnet_cfg
 from base import Tester as rootnet_Tester
 from utils.pose_utils import pixel2cam
 
